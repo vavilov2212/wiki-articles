@@ -6,6 +6,7 @@ date: '2022-05-21 14:17'
 
 [Запись воркшопа](https://drive.google.com/file/d/1xkvdtWNzaR5KsVelMNM-_xkscoXLwC8P/view)
 [Презентация](https://docs.google.com/presentation/d/1b1puthf3Kk3dwNvzHf8g8MtY5enJf71HdkzhrSHkH3Y/edit?usp=sharing)
+[Репозиторий с примерами](https://github.com/emorozov/docker-workshop)
 
 # Notes
 
