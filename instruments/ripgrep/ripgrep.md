@@ -34,4 +34,3 @@ $ rg -U "\n  <link href=\"css/normalize.css\" rel=\"stylesheet\" type=\"text/css
 
 Unfortunately ripgrep cannot write to files in filesystem =( For this use neovims `vim-grepper` plugin, which can
 utilize ripgrep system executable. [Search & replace contents of quickfix-list with vims %s/](/vim/search_and_replace).
-
