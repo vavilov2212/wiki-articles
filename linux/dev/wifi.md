@@ -7,7 +7,9 @@ date: '2022-09-12 10:23'
 
 This is taken from [suffix.be/configuring-wifi-network-adapter-ubuntu](https://www.suffix.be/blog/configuring-wifi-network-adapter-ubuntu/).
 
-## Configuring a wireless network adapter on Ubuntu
+How to use network-manager tool - [Use NetworkManager on Ubuntu/Debian](https://computingforgeeks.com/install-and-use-networkmanager-nmcli-on-ubuntu-debian/)
+
+# Wireless network adapter on Ubuntu
 
 List all usb devices
 
@@ -81,4 +83,4 @@ At this time this list should allready be shown in ubuntu visual UI setting. If 
 ```Shell
 $ wpa_passphrase <ssid> > wlan.config
 ```
-This is going to work untill reboot system. For more read the original [article](https://www.suffix.be/blog/configuring-wifi-network-adapter-ubuntu/).
+This is going to work untill reboot system.
