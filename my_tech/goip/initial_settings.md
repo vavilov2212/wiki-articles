@@ -9,6 +9,10 @@ date: '2023-01-29 14:07'
 
 Goip user manual - [should i download this?](http://static.dbltek.com/attachment/7oiqKBomRiiSmrrmnrRiwS77gwbf3zlp/GoIP-Series-User-Manual-V1.pdf)
 
+Sms server installation guide - http://static.dbltek.com/SMS+Server+Installation+Guide-aidlrBqmKioSRjiqniknklq.pdf
+
+Goip sms server - https://www.youtube.com/watch?v=UlsO9OzBbmw
+
 Never used this, but might be helpful - https://itgala.xyz/connect-goip8-gsm-gateway-to-asterisk/
 
 Might be helpful too - [asteriskdocs.org - Asterisk‚Ñ¢: The Definitive Guide](http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/index.html)
