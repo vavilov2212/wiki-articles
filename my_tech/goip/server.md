@@ -30,3 +30,4 @@ It has great step-by-step guid on every aspect you probably need  - https://gith
 
 As of writing this, RasPBX is based on Debian 10 Bullseye, but there's a side project (not maintained) which is Debian 11 based - http://www.raspberry-asterisk.org/downloads/
 
+Настройка сиситемы за NAT: https://server-gu.ru/asterisk-no-sound-nat/
