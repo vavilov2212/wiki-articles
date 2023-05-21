@@ -1,12 +1,12 @@
----
-title: %date%
-desctiption: Developer diary
-author: Roman Vavilov
-date: '%date%'
----
+%% ---
+%% title: %date%
+%% desctiption: Developer diary
+%% author: Roman Vavilov
+%% date: '%date%'
+%% ---
 
-%title%
-%root_path%
-%wiki_path%
+%% %title%
+%% %root_path%
+%% %wiki_path%
 
-%content%
+%% %content%
