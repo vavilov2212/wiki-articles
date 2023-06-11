@@ -17,6 +17,7 @@ Pros:
 - comprehensive documentation
 - easy to use (clone & run ./install)
 - easy to config (json | yaml)
+- with additional configuration lets you install different profiles with different configurations
 
 Cons:
 - Need to figure out how to tailor zsh plugins (oh-my-zsh, etc.)
