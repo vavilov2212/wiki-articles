@@ -1,3 +1,5 @@
 = Dotfiles =
 
-  * [Dotfiles](dotfiles) -- Guide on how to configure files
+  * [Overview](overview) -- Overview of ways to manage dotfiles
+  * [Dotbot](dotbot)     -- Dotfiles manager
+
