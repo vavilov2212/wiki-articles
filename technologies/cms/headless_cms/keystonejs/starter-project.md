@@ -24,7 +24,23 @@ lsof -Pi :postgresql
 
 Knowing `host` and `port` of postgresql server you need to create database
 
-Connect to the server with credentials: [how-to-use](/backend/postgresql/how-to-use.md)
+[how-to-use](/backend/postgresql/how-to-use.md)
+Connect to the server with credentials, create user, create database
 ```Shell
 psql -h localhost -p 5432 -U vavilovroman postgres
+
+CREATE USER postgres WITH PASSWORD 'postgres' SUPERUSER;
+CREATE DATABASE "my-database-name" OWNER postgres;
+```
+
+Granted the `SUPERUSER` privilages, when connecting to databse via **postgresql provider**, it will CREATE DATABASE if one doesn't exist.
+
+```Shell
+// in keystone.ts
+const devPostgresqlUrl = "postgres://postgres:postgres@localhost/my-database-name";
+
+// `keystone dev` output
+...
+postgresql database "my-database-name" created at localhost
+...
 ```
