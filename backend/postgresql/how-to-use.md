@@ -44,4 +44,7 @@ ALTER USER postgres WITH PASSWORD 'postgres' SUPERUSER;
 
 // Create databse
 CREATE DATABASE "my-database-name" OWNER postgres;
+
+// Remove databse
+DROP DATABASE "my-database-name";
 ```
