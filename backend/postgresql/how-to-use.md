@@ -41,4 +41,7 @@ CREATE USER postgres WITH PASSWORD 'postgres';
 ALTER USER postgres SUPERUSER;
 CREATE USER postgres WITH PASSWORD 'postgres' SUPERUSER;
 ALTER USER postgres WITH PASSWORD 'postgres' SUPERUSER;
+
+// Create databse
+CREATE DATABASE "my-database-name" OWNER postgres;
 ```

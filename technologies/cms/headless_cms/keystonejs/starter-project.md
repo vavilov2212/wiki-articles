@@ -24,13 +24,15 @@ lsof -Pi :postgresql
 
 Knowing `host` and `port` of postgresql server you need to create database
 
-[how-to-use](/backend/postgresql/how-to-use.md)
 Connect to the server with credentials, create user, create database
+
+Refer to [postgresql/how-to-use](/backend/postgresql/how-to-use.md) for more details.
 ```Shell
 psql -h localhost -p 5432 -U vavilovroman postgres
+postgres=# // You are now in interactive terminal
 
-CREATE USER postgres WITH PASSWORD 'postgres' SUPERUSER;
-CREATE DATABASE "my-database-name" OWNER postgres;
+postgres=# CREATE USER postgres WITH PASSWORD 'postgres' SUPERUSER;
+postgres=# CREATE DATABASE "my-database-name" OWNER postgres;
 ```
 
 Granted the `SUPERUSER` privilages, when connecting to databse via **postgresql provider**, it will CREATE DATABASE if one doesn't exist.
@@ -44,3 +46,12 @@ const devPostgresqlUrl = "postgres://postgres:postgres@localhost/my-database-nam
 postgresql database "my-database-name" created at localhost
 ...
 ```
+
+On the first attempt to run keystone in dev mode it will ask to create first migration. Simply leave it blank and it will suggest the name itself.
+```Shell
+There has been a change to your Keystone schema that requires a migration
+
+Name of migration … // Press enter
+```
+
+***Congrats! You are now running keystonejs localy!***
