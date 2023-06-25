@@ -9,7 +9,7 @@ date: '2023-06-14 05:04'
 
 ### PostgreSQL
 
-To start the postgresql server, please, refer to the [run-under-macos](/backend/postgresql/run_under_macos.md) memo.
+To start the postgresql server, please, refer to the [run-under-macos](/backend/postgresql/run-under-macos.md) memo.
 
 To verify on which address it's running:
 ```Shell
