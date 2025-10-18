@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Index file
-date: '2021-11-15'
+date: "2021-11-15"
 ---
+
 = My knowledge base =
-    * [[Tasks]] -- things to be done _yesterday_!!!
-    * Project [Gutenberg](Gutenberg) -- good books are power.
-    * [Scratchpad](Scratchpad) -- various temporary stuff.
-    * [TODO List](todo_list) -- List of todos.
+_ [[Tasks]] -- things to be done *yesterday*!!!
+_ Project [Gutenberg](Gutenberg) -- good books are power.
+_ [Scratchpad](Scratchpad) -- various temporary stuff.
+_ [TODO List](todo_list) -- List of todos.
 
 = Programming languages =
 [[./programming_languages/index.md]]
@@ -29,9 +30,6 @@ date: '2021-11-15'
 
 = DevOps =
 [[./devOps/index.md]]
-
-= Courses & edication =
-[[./courses_&_education/index.md]]
 
 = Operating systems =
 [[./operating_systems/index.md]]
